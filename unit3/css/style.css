@@ -1,3 +1,27 @@
 body {
-	color: #051D49;
+	background: url("https://chelseydavis.github.io/unit3/assets/stripes.png"), url("https://chelseydavis.github.io/unit3/assets/background.jpg");
+	background-repeat: repeat-x, no-repeat;
+	background-size: 650px, cover;
+	font-size: 30px;
+	font-family: helvatica;
+	color: white;
+	margin-top: 200px;
+	margin-left: 200px;
+	margin-right: 200px
+	padding: 30px;
+	border: 0;
+}
+
+p {
+	line-height: 10px;
+	font-weight: 100;
+}
+
+hr {
+	width: 50px;
+	height: 2px;
+	background-color: #fd6e6e;
+	border: 0;
+}
+
 }
