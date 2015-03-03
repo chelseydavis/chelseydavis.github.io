@@ -50,11 +50,6 @@ h2 {
 	font-size: 1.125em;
 }
 
-li {
-	display: inline;
-}
-
-
 footer {
 	font-family: 'Lora', sans-serif;
 	font-size: 12px;
@@ -62,6 +57,7 @@ footer {
 	text-align: center;
 	border-top: 1px solid #616e73;
 	padding: 18px 0;
+	height: 2vh;m[j08=9]
 	clear: both;
 }
 
@@ -101,13 +97,18 @@ footer {
 	margin: 0 auto;
 }
 
-.bulldog {
+/*.bulldog {
 	width: 340px;
 }
 
-.pup {
+/*.pup {
 	padding: 40px;
-}
+}*/
+
+.topnav {
+
+	display: inline;
+} 
 
 
 #random{
@@ -135,9 +136,10 @@ background-color: #fffff4;
 
 #puppies {
 text-align: center;
-padding: 4em;
-width: 100%;
-height: 35vh;
+margin: 3em auto;
+width: 80%;
+height: 33vh;
+
 }
 
 #turq {
@@ -158,4 +160,10 @@ height: 35vh;
 #turq a {
 	text-decoration: none;
 	color: #fffff4;
+}
+
+#doggy {
+	display: block;
+	float:left;
+	width: 25%;
 }
